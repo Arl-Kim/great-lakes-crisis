@@ -1,0 +1,12 @@
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+footer a{
+    color: #53a7db !important;
+}
+
+footer a:hover{
+    color: #f7ad19 !important;
+}
