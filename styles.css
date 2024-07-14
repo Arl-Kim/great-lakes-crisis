@@ -13,4 +13,9 @@ footer a:hover{
 
 button:focus, a:focus{
     outline: none !important;
-  }
+}
+
+#shadowed_tab{
+    box-shadow: 0 0 5px #53a7db;
+    border-radius: 7px;
+}
