@@ -19,3 +19,7 @@ button:focus, a:focus{
     box-shadow: 0 0 5px #53a7db;
     border-radius: 7px;
 }
+
+#bg_gradient{
+    background-image: linear-gradient(#fff, #53a7db, #53a7db, #053f5c, #053f5c);
+}
