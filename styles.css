@@ -35,3 +35,16 @@ button:focus, a:focus{
 .posted-on .published{
     color: #f27f0c;
 }
+
+.blog .ast-row{
+    margin-top: 70px;
+}
+
+.ast-row .post{
+    box-shadow: 0 0 5px #053f5c;
+    border-radius: 7px;
+}
+
+.ast-row .post:hover{
+    box-shadow: none;
+}
