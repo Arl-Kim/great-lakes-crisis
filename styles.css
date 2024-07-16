@@ -27,3 +27,11 @@ button:focus, a:focus{
 #bg_grad_light{
     background-image: linear-gradient(#fff, #53a7db,#053f5c);
 }
+
+.ast-excerpt-container p{
+    color: #53a7db;
+}
+
+.posted-on .published{
+    color: #f27f0c;
+}
