@@ -23,3 +23,7 @@ button:focus, a:focus{
 #bg_gradient{
     background-image: linear-gradient(#fff, #53a7db, #53a7db, #053f5c, #053f5c);
 }
+
+#bg_grad_light{
+    background-image: linear-gradient(#fff, #53a7db,#053f5c);
+}
