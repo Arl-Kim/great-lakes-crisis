@@ -48,3 +48,11 @@ button:focus, a:focus{
 .ast-row .post:hover{
     box-shadow: none;
 }
+
+.elementor-social-icons-wrapper .elementor-grid-item .elementor-icon{
+    box-shadow: 0 0 5px #53a7db;
+}
+
+.elementor-social-icons-wrapper .elementor-grid-item .elementor-icon:hover{
+    box-shadow: 0 0 10px #53a7db;
+}
