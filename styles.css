@@ -75,3 +75,18 @@ a.ast-builder-social-element:hover{
 a.ast-builder-social-element span{
     transition: all 400ms ease-in-out !important;
 }
+
+#standout_text{
+    color: #53a7db; 
+    font-size: 22px; 
+    font-weight: bold;
+}
+
+
+/*RESPONSIVE DESIGN*/
+
+@media(max-width:572px){
+    #standout_text{
+        color: #053f5c; 
+    }
+}
