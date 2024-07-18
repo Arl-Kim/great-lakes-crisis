@@ -5,6 +5,7 @@ html, body{
 
 footer a{
     color: #53a7db !important;
+    transition: all 400ms ease-in-out;
 }
 
 footer a:hover{
@@ -55,4 +56,22 @@ button:focus, a:focus{
 
 .elementor-social-icons-wrapper .elementor-grid-item .elementor-icon:hover{
     box-shadow: 0 0 10px #53a7db;
+}
+
+figcaption.gallery-caption{
+    border: none !important;
+}
+
+a.ast-builder-social-element{
+    box-shadow: 0 0 5px #53a7db;
+    padding: 5px;
+    transition: all 400ms ease-in-out !important;
+}
+
+a.ast-builder-social-element:hover{
+    box-shadow: 0 0 10px #f27f0c;
+}
+
+a.ast-builder-social-element span{
+    transition: all 400ms ease-in-out !important;
 }
