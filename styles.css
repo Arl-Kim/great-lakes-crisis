@@ -77,16 +77,10 @@ a.ast-builder-social-element span{
 }
 
 #standout_text{
-    color: #53a7db; 
+    color: #f27f0c; 
     font-size: 22px; 
     font-weight: bold;
 }
 
 
 /*RESPONSIVE DESIGN*/
-
-@media(max-width:572px){
-    #standout_text{
-        color: #053f5c; 
-    }
-}
