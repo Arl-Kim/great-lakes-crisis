@@ -3,22 +3,6 @@ html, body{
     overflow-x: hidden;
 }
 
-footer a{
-    color: #53a7db !important;
-    transition: all 400ms ease-in-out;
-}
-
-footer a:hover{
-    color: #f27f0c !important;
-}
-
-.footer-links{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 button:focus, a:focus{
     outline: none !important;
 }
@@ -89,5 +73,37 @@ a.ast-builder-social-element span{
     font-weight: bold;
 }
 
+/*UM Form Styles*/
+
+#um-submit-btn{
+    background: #053f5c !important;
+    color: #f27f0c !important;
+    font-weight: 700 !important;
+    transition: all 400ms ease-in-out;
+}
+
+#um-submit-btn:hover{
+    background: #f27f0c !important;
+    color: #053f5c !important;
+}
+
+
+/*Footer Styles*/
+
+footer a{
+    color: #53a7db !important;
+    transition: all 400ms ease-in-out;
+}
+
+footer a:hover{
+    color: #f27f0c !important;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /*RESPONSIVE DESIGN*/
