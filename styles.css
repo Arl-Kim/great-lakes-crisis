@@ -12,6 +12,13 @@ footer a:hover{
     color: #f27f0c !important;
 }
 
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 button:focus, a:focus{
     outline: none !important;
 }
