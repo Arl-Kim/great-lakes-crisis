@@ -21,6 +21,11 @@ if ( is_user_logged_in() ) : ?>
   </div>
 
   <style>
+    p{
+      font-family: Roboto;
+      font-weight: 400;
+    }
+
     .blurred-text {
       filter: blur(4px);
       transition: filter 0.3s ease;
