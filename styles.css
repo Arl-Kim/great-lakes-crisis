@@ -102,18 +102,6 @@ a.ast-builder-social-element span{
     text-transform: lowercase !important;
 }
 
-.um-half a {
-    background: #f27f0c !important;
-    color: #053f5c !important;
-    font-weight: 700 !important;
-    transition: all 400ms ease-in-out;
-}
-
-.um-half a:hover {
-    background: #053f5c !important;
-    color: #f27f0c !important;
-}
-
 #um-submit-btn{
     background: #053f5c !important;
     color: #f27f0c !important;
@@ -124,6 +112,18 @@ a.ast-builder-social-element span{
 #um-submit-btn:hover{
     background: #f27f0c !important;
     color: #053f5c !important;
+}
+
+.um-half a {
+    background: #f27f0c !important;
+    color: #053f5c !important;
+    font-weight: 700 !important;
+    transition: all 400ms ease-in-out;
+}
+
+.um-half a:hover {
+    background: #053f5c !important;
+    color: #f27f0c !important;
 }
 
 
