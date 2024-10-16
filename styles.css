@@ -144,6 +144,42 @@ a.um-link-alt:hover {
 }
 
 
+/*UM Account & Profile Styles*/
+
+.um-account-name a {
+    color: #053f5c !important;
+    transition: all 400ms ease-in-out;
+}
+
+.um-account-name a:hover {
+    color: #53a7db !important;
+}
+
+.um-account-profile-link a {
+    color: #53a7db !important;
+    transition: all 400ms ease-in-out;
+}
+
+.um-account-profile-link a:hover {
+    color: #f27f0c !important;
+}
+
+.um-account-side ul li a {
+    background: #053f5c !important;
+    border-radius: 7px !important;
+    transition: all 400ms ease-in-out;
+}
+
+.um-account-side ul li a:hover,
+.um-account-side ul li a.current {
+    background: #fff !important;
+}
+
+.um-account-side ul li a span {
+    color: #53a7db !important;
+}
+
+
 /*Footer Styles*/
 
 footer a{
