@@ -126,6 +126,23 @@ a.ast-builder-social-element span{
     color: #f27f0c !important;
 }
 
+a.um-link-alt {
+    color: #53a7db !important;
+    transition: all 400ms ease-in-out;
+}
+
+a.um-link-alt:hover {
+    color: #f27f0c !important;
+}
+
+#username_b::placeholder {
+    text-transform: lowercase !important;
+}
+
+.um-field-block div {
+    color: #053f5c !important;
+}
+
 
 /*Footer Styles*/
 
