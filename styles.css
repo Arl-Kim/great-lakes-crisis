@@ -102,14 +102,20 @@ a.ast-builder-social-element span{
     text-transform: lowercase !important;
 }
 
-#um-submit-btn{
+#um-submit-btn,
+#um_account_submit_general,
+#um_account_submit_password,
+#um_account_submit_privacy {
     background: #053f5c !important;
     color: #f27f0c !important;
     font-weight: 700 !important;
     transition: all 400ms ease-in-out;
 }
 
-#um-submit-btn:hover{
+#um-submit-btn:hover,
+#um_account_submit_general:hover,
+#um_account_submit_password:hover,
+#um_account_submit_privacy:hover {
     background: #f27f0c !important;
     color: #053f5c !important;
 }
@@ -143,6 +149,22 @@ a.um-link-alt:hover {
     color: #053f5c !important;
 }
 
+span.um-field-radio-option {
+    color: #053f5c !important;
+}
+
+span.um-tip {
+    color: #053f5c !important;
+    transition: all 400ms ease-in-out;
+}
+
+span.um-tip:hover {
+    color: #53a7db !important;
+}
+
+.um-account-tab-delete p {
+    color: #053f5c !important;
+}
 
 /*UM Account & Profile Styles*/
 
@@ -177,6 +199,10 @@ a.um-link-alt:hover {
 
 .um-account-side ul li a span {
     color: #53a7db !important;
+}
+
+.um-account-heading {
+    color: #053f5c !important;
 }
 
 
