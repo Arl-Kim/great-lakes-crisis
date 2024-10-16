@@ -149,6 +149,10 @@ a.um-link-alt:hover {
     color: #053f5c !important;
 }
 
+span.um-req {
+    color: #053f5c !important;
+}
+
 span.um-field-radio-option {
     color: #053f5c !important;
 }
@@ -163,6 +167,10 @@ span.um-tip:hover {
 }
 
 .um-account-tab-delete p {
+    color: #053f5c !important;
+}
+
+.um-postmessage {
     color: #053f5c !important;
 }
 
