@@ -205,6 +205,49 @@ span.um-tip:hover {
     color: #053f5c !important;
 }
 
+.um-name a,
+a.um-profile-edit-a {
+    color: #053f5c !important;
+    transition: all 400ms ease-in-out;
+}
+
+a.um-profile-edit-a:hover {
+    color: #53a7db !important;
+}
+
+.um-dropdown-b {
+    background: #053f5c !important;
+}
+
+.um-dropdown-b ul {
+    background: #053f5c !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.um-dropdown-b ul li a {
+    background: #053f5c !important;
+    color: #53a7db !important;
+    transition: all 400ms ease-in-out;
+    border: none !important;
+    outline: none !important;
+}
+
+.um-dropdown-b ul li a:hover {
+    background: #fff !important;
+}
+
+.um-profile-nav {
+    background: #053f5c !important;
+}
+
+
+/*GTranslate Widgets Styles*/
+
+.gtranslate_wrapper #gt_float_wrapper {
+    z-index: -1 !important;
+}
+
 
 /*Footer Styles*/
 
