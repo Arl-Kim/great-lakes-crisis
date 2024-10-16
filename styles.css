@@ -75,6 +75,45 @@ a.ast-builder-social-element span{
 
 /*UM Form Styles*/
 
+.um-field-label label {
+    color: #053f5c;
+}
+
+.um-field-area input {
+    background: #053f5c !important;
+    color: #fff !important;
+    border: none !important;
+    outline: none !important;
+    border-radius: 7px !important;
+    transition: all 400ms ease-in-out;
+}
+
+.um-field-area input:focus {
+    background: #fff !important;
+    color: #053f5c !important;
+    border: 1px solid #053f5c !important;
+}
+
+.um-field-area input::placeholder {
+    color: #53a7db !important;
+}
+
+#confirm_user_password-549 {
+    text-transform: lowercase !important;
+}
+
+.um-half a {
+    background: #f27f0c !important;
+    color: #053f5c !important;
+    font-weight: 700 !important;
+    transition: all 400ms ease-in-out;
+}
+
+.um-half a:hover {
+    background: #053f5c !important;
+    color: #f27f0c !important;
+}
+
 #um-submit-btn{
     background: #053f5c !important;
     color: #f27f0c !important;
