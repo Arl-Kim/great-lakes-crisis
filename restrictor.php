@@ -1,3 +1,5 @@
+<?php
+
 if ( is_user_logged_in() ) : ?>
   <p>
     Mr. Nsiku's career includes significant experience with Amnesty International's East Africa Regional Office (EARO), where he focused on issues pertaining to the Democratic Republic of Congo. He now serves 
