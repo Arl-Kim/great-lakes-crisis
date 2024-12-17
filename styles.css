@@ -1,73 +1,75 @@
-html, body{
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
 
-button:focus, a:focus{
+button:focus,
+a:focus {
     outline: none !important;
 }
 
-#shadowed_tab{
+#shadowed_tab {
     box-shadow: 0 0 5px #53a7db;
     border-radius: 7px;
 }
 
-#bg_gradient{
+#bg_gradient {
     background-image: linear-gradient(#fff, #53a7db, #53a7db, #053f5c, #053f5c);
 }
 
-#bg_grad_light{
+.bg-grad-light {
     background-image: linear-gradient(#fff, #53a7db,#053f5c);
 }
 
-.ast-excerpt-container p{
+.ast-excerpt-container p {
     color: #53a7db;
 }
 
-.posted-on .published{
+.posted-on .published {
     color: #f27f0c;
 }
 
-.blog .ast-row{
+.blog .ast-row {
     margin-top: 70px;
 }
 
-.ast-row .post{
+.ast-row .post {
     box-shadow: 0 0 5px #053f5c;
     border-radius: 7px;
 }
 
-.ast-row .post:hover{
+.ast-row .post:hover {
     box-shadow: none;
 }
 
-.elementor-social-icons-wrapper .elementor-grid-item .elementor-icon{
+.elementor-social-icons-wrapper .elementor-grid-item .elementor-icon {
     box-shadow: 0 0 5px #53a7db;
 }
 
-.elementor-social-icons-wrapper .elementor-grid-item .elementor-icon:hover{
+.elementor-social-icons-wrapper .elementor-grid-item .elementor-icon:hover {
     box-shadow: 0 0 10px #53a7db;
 }
 
-figcaption.gallery-caption{
+figcaption.gallery-caption {
     border: none !important;
 }
 
-a.ast-builder-social-element{
+a.ast-builder-social-element {
     box-shadow: 0 0 5px #53a7db;
     padding: 5px;
     transition: all 400ms ease-in-out !important;
 }
 
-a.ast-builder-social-element:hover{
+a.ast-builder-social-element:hover {
     box-shadow: 0 0 10px #f27f0c;
 }
 
-a.ast-builder-social-element span{
+a.ast-builder-social-element span {
     transition: all 400ms ease-in-out !important;
 }
 
-#standout_text{
+.standout_text {
     color: #f27f0c; 
     font-size: 22px; 
     font-weight: bold;
@@ -259,16 +261,16 @@ a.um-profile-edit-a:hover {
 
 /*Footer Styles*/
 
-footer a{
+footer a {
     color: #53a7db !important;
     transition: all 400ms ease-in-out;
 }
 
-footer a:hover{
+footer a:hover {
     color: #f27f0c !important;
 }
 
-.footer-links{
+.footer-links {
     display: flex;
     flex-direction: column;
     justify-content: center;
