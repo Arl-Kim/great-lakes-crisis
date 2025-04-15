@@ -1,287 +1,289 @@
 html,
 body {
-    max-width: 100%;
-    overflow-x: hidden;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
-    -webkit-user-select: none; /* Safari */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none; /* Standard */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Standard */
 }
 
 button:focus,
 a:focus {
-    outline: none !important;
+  outline: none !important;
 }
 
 #shadowed_tab {
-    box-shadow: 0 0 5px #53a7db;
-    border-radius: 7px;
+  box-shadow: 0 0 5px #53a7db;
+  border-radius: 7px;
 }
 
 #bg_gradient {
-    background-image: linear-gradient(#fff, #53a7db, #53a7db, #053f5c, #053f5c);
+  background-image: linear-gradient(#fff, #53a7db, #53a7db, #053f5c, #053f5c);
 }
 
 .bg-grad-light {
-    background-image: linear-gradient(#fff, #53a7db,#053f5c);
+  background-image: linear-gradient(#fff, #53a7db, #053f5c);
 }
 
 .ast-excerpt-container p {
-    color: #53a7db;
+  color: #53a7db;
 }
 
 .posted-on .published {
-    color: #f27f0c;
+  color: #f27f0c;
 }
 
 .blog .ast-row {
-    margin-top: 70px;
+  margin-top: 70px;
 }
 
 .ast-row .post {
-    box-shadow: 0 0 5px #053f5c;
-    border-radius: 7px;
+  box-shadow: 0 0 5px #053f5c;
+  border-radius: 7px;
 }
 
 .ast-row .post:hover {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 .elementor-social-icons-wrapper .elementor-grid-item .elementor-icon {
-    box-shadow: 0 0 5px #53a7db;
+  box-shadow: 0 0 5px #53a7db;
 }
 
 .elementor-social-icons-wrapper .elementor-grid-item .elementor-icon:hover {
-    box-shadow: 0 0 10px #53a7db;
+  box-shadow: 0 0 10px #53a7db;
 }
 
 figcaption.gallery-caption {
-    border: none !important;
+  border: none !important;
 }
 
 a.ast-builder-social-element {
-    box-shadow: 0 0 5px #53a7db;
-    padding: 5px;
-    transition: all 400ms ease-in-out !important;
+  box-shadow: 0 0 5px #53a7db;
+  padding: 5px;
+  transition: all 400ms ease-in-out !important;
 }
 
 a.ast-builder-social-element:hover {
-    box-shadow: 0 0 10px #f27f0c;
+  box-shadow: 0 0 10px #f27f0c;
 }
 
 a.ast-builder-social-element span {
-    transition: all 400ms ease-in-out !important;
+  transition: all 400ms ease-in-out !important;
 }
 
 .standout_text {
-    color: #f27f0c; 
-    font-size: 22px; 
-    font-weight: bold;
+  color: #f27f0c;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 /*UM Form Styles*/
 
 .um-field-label label {
-    color: #053f5c;
+  color: #053f5c;
 }
 
 .um-field-area input {
-    background: #053f5c !important;
-    color: #fff !important;
-    border: none !important;
-    outline: none !important;
-    border-radius: 7px !important;
-    transition: all 400ms ease-in-out;
+  background: #053f5c !important;
+  color: #fff !important;
+  border: none !important;
+  outline: none !important;
+  border-radius: 7px !important;
+  transition: all 400ms ease-in-out;
 }
 
 .um-field-area input:focus {
-    background: #fff !important;
-    color: #053f5c !important;
-    border: 1px solid #053f5c !important;
+  background: #fff !important;
+  color: #053f5c !important;
+  border: 1px solid #053f5c !important;
 }
 
 .um-field-area input::placeholder {
-    color: #53a7db !important;
+  color: #53a7db !important;
 }
 
 #confirm_user_password-549 {
-    text-transform: lowercase !important;
+  text-transform: lowercase !important;
 }
 
 #um-submit-btn,
 #um_account_submit_general,
 #um_account_submit_password,
 #um_account_submit_privacy {
-    background: #053f5c !important;
-    color: #f27f0c !important;
-    font-weight: 700 !important;
-    transition: all 400ms ease-in-out;
+  background: #053f5c !important;
+  color: #f27f0c !important;
+  font-weight: 700 !important;
+  transition: all 400ms ease-in-out;
 }
 
 #um-submit-btn:hover,
 #um_account_submit_general:hover,
 #um_account_submit_password:hover,
 #um_account_submit_privacy:hover {
-    background: #f27f0c !important;
-    color: #053f5c !important;
+  background: #f27f0c !important;
+  color: #053f5c !important;
 }
 
 .um-half a {
-    background: #f27f0c !important;
-    color: #053f5c !important;
-    font-weight: 700 !important;
-    transition: all 400ms ease-in-out;
+  background: #f27f0c !important;
+  color: #053f5c !important;
+  font-weight: 700 !important;
+  transition: all 400ms ease-in-out;
 }
 
 .um-half a:hover {
-    background: #053f5c !important;
-    color: #f27f0c !important;
+  background: #053f5c !important;
+  color: #f27f0c !important;
 }
 
 a.um-link-alt {
-    color: #53a7db !important;
-    transition: all 400ms ease-in-out;
+  color: #53a7db !important;
+  transition: all 400ms ease-in-out;
 }
 
 a.um-link-alt:hover {
-    color: #f27f0c !important;
+  color: #f27f0c !important;
 }
 
 #username_b::placeholder {
-    text-transform: lowercase !important;
+  text-transform: lowercase !important;
 }
 
 .um-field-block div {
-    color: #053f5c !important;
+  color: #053f5c !important;
 }
 
 span.um-req {
-    color: #053f5c !important;
+  color: #053f5c !important;
 }
 
 span.um-field-radio-option {
-    color: #053f5c !important;
+  color: #053f5c !important;
 }
 
 span.um-tip {
-    color: #053f5c !important;
-    transition: all 400ms ease-in-out;
+  color: #053f5c !important;
+  transition: all 400ms ease-in-out;
 }
 
 span.um-tip:hover {
-    color: #53a7db !important;
+  color: #53a7db !important;
 }
 
 .um-account-tab-delete p {
-    color: #053f5c !important;
+  color: #053f5c !important;
 }
 
 .um-postmessage {
-    color: #053f5c !important;
+  color: #053f5c !important;
 }
 
 /*UM Account & Profile Styles*/
 
 .um-account-name a {
-    color: #053f5c !important;
-    transition: all 400ms ease-in-out;
+  color: #053f5c !important;
+  transition: all 400ms ease-in-out;
 }
 
 .um-account-name a:hover {
-    color: #53a7db !important;
+  color: #53a7db !important;
 }
 
 .um-account-profile-link a {
-    color: #53a7db !important;
-    transition: all 400ms ease-in-out;
+  color: #53a7db !important;
+  transition: all 400ms ease-in-out;
 }
 
 .um-account-profile-link a:hover {
-    color: #f27f0c !important;
+  color: #f27f0c !important;
 }
 
 .um-account-side ul li a {
-    background: #053f5c !important;
-    border-radius: 7px !important;
-    transition: all 400ms ease-in-out;
+  background: #053f5c !important;
+  border-radius: 7px !important;
+  transition: all 400ms ease-in-out;
 }
 
 .um-account-side ul li a:hover,
 .um-account-side ul li a.current {
-    background: #fff !important;
+  background: #fff !important;
 }
 
 .um-account-side ul li a span {
-    color: #53a7db !important;
+  color: #53a7db !important;
 }
 
 .um-account-heading {
-    color: #053f5c !important;
+  color: #053f5c !important;
 }
 
 .um-name a,
 a.um-profile-edit-a {
-    color: #053f5c !important;
-    transition: all 400ms ease-in-out;
+  color: #053f5c !important;
+  transition: all 400ms ease-in-out;
 }
 
 a.um-profile-edit-a:hover {
-    color: #53a7db !important;
+  color: #53a7db !important;
 }
 
 .um-dropdown-b {
-    background: #053f5c !important;
+  background: #053f5c !important;
 }
 
 .um-dropdown-b ul {
-    background: #053f5c !important;
-    border: none !important;
-    outline: none !important;
+  background: #053f5c !important;
+  border: none !important;
+  outline: none !important;
 }
 
 .um-dropdown-b ul li a {
-    background: #053f5c !important;
-    color: #53a7db !important;
-    transition: all 400ms ease-in-out;
-    border: none !important;
-    outline: none !important;
+  background: #053f5c !important;
+  color: #53a7db !important;
+  transition: all 400ms ease-in-out;
+  border: none !important;
+  outline: none !important;
 }
 
 .um-dropdown-b ul li a:hover {
-    background: #fff !important;
+  background: #fff !important;
 }
 
 .um-profile-nav {
-    background: #053f5c !important;
+  background: #053f5c !important;
 }
-
 
 /*GTranslate Widgets Styles*/
 
 .gtranslate_wrapper #gt_float_wrapper {
-    z-index: -1 !important;
+  z-index: 1 !important;
 }
-
 
 /*Footer Styles*/
 
+footer {
+  z-index: 2;
+}
+
 footer a {
-    color: #53a7db !important;
-    transition: all 400ms ease-in-out;
+  color: #53a7db !important;
+  transition: all 400ms ease-in-out;
 }
 
 footer a:hover {
-    color: #f27f0c !important;
+  color: #f27f0c !important;
 }
 
 .footer-links {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /*RESPONSIVE DESIGN*/
