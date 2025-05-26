@@ -16,6 +16,15 @@ a:focus {
   outline: none !important;
 }
 
+/* Main Navigation */
+
+a.menu-link[href|="https://greatlakescrisis.org/premium-articles/"] {
+  background: #f27f0c !important;
+  padding: 20px !important;
+  max-height: 50px;
+  border-radius: 10px;
+}
+
 #shadowed_tab {
   box-shadow: 0 0 5px #53a7db;
   border-radius: 7px;
