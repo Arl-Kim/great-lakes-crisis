@@ -22,9 +22,15 @@ input:focus {
 a.menu-link[href|="https://greatlakescrisis.org/premium-articles/"]
 {
   background: #f27f0c !important;
+  color: #053f5c !important;
   padding: 20px !important;
   max-height: 50px;
   border-radius: 10px;
+}
+
+a.menu-link[href|="https://greatlakescrisis.org/premium-articles/"]:hover
+{
+  color: #fff !important;
 }
 
 #shadowed_tab {
@@ -298,3 +304,9 @@ footer a:hover {
 }
 
 /*RESPONSIVE DESIGN*/
+@media (max-width: 768px) {
+  a.menu-link[href|="https://greatlakescrisis.org/premium-articles/"]
+  {
+    max-width: 50%;
+  }
+}
